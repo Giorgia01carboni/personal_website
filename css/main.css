@@ -152,8 +152,8 @@ html {
 }
 
 body {
-	color: #1a1a1a;
-	background-color: #FBF9F1; /* Your new beige background */
+	color: #272932; 
+	background-color: #ffffff;
 	font-size: 18px;
 	font-family: -apple-system, blinkmacsystemfont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, helvetica neue, arial, sans-serif;
 	line-height: 1.5;
@@ -161,13 +161,15 @@ body {
 	font-kerning: normal
 }
 
+
+
 a {
-	color: #A91D3A; /* Your new dark red link color */
-	text-decoration: underline
+	color: #9a031e; 
+	text-decoration: underline;
 }
 
 a:hover {
-	color: #8B0000; /* Your new dark red hover color */
+	color: #586f7c; 
 }
 
 p {
@@ -197,7 +199,7 @@ pre {
 }
 
 .t--size-xl {
-	font-size: 1.8rem
+	font-size: 1.6rem
 }
 
 .t--size-l {
@@ -432,7 +434,7 @@ pre {
 }
 
 .footnotes li:target {
-	background-color: #fffce6
+	background-color: #fbf5f3
 }
 
 .l--container {
