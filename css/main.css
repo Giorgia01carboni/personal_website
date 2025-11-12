@@ -695,3 +695,61 @@ pre.highlight {
 	color: #09f;
 	font-style: italic
 }
+
+/* Timeline Styles */
+.timeline {
+  position: relative;
+  border-left: 2px solid #e4e6e7; 
+  margin-left: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  top: 0.3rem;
+  left: -1.85rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  background: #fff;
+  border: 2px solid #2b2d42; 
+  border-radius: 50%;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  color: #2b2d42;
+}
+/* Skills Grid Layout */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+}
+
+.skill-category h4 {
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #f0f3f3;
+  padding-bottom: 0.25rem;
+  display: inline-block;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-list li {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+  font-size: 0.95rem;
+  color: #586f7c;
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
