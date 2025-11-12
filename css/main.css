@@ -696,7 +696,7 @@ pre.highlight {
 	font-style: italic
 }
 
-/* Timeline Styles */
+/* For the Timeline layout */
 .timeline {
   position: relative;
   border-left: 2px solid #e4e6e7; 
@@ -724,7 +724,7 @@ pre.highlight {
   margin-top: 0;
   color: #2b2d42;
 }
-/* Skills Grid Layout */
+/* For the Skills layout */
 .skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
